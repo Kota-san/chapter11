@@ -1,7 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Character c = new Character();
-        Matango m = new Matango();
-        c.attack(m);
+        Fool fool = new Fool();
+        fool.name = "怠け者";
+        fool.hp = 80;
+        fool.talk();
+        fool.watch();
+        fool.hear();
+        fool.attack(new Matango());
+        fool.run();
     }
 }
